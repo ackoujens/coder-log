@@ -4,10 +4,10 @@
     <title>Your awesome title</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://example.com/</link>
-    <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Sep 2016 22:30:42 +0200</pubDate>
-    <lastBuildDate>Thu, 22 Sep 2016 22:30:42 +0200</lastBuildDate>
+    <link>http://ackoujens.github.io/coder-log/</link>
+    <atom:link href="http://ackoujens.github.io/coder-log/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 25 Sep 2016 16:58:02 +0200</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 16:58:02 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -31,8 +31,8 @@
 &lt;p&gt;*/&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 Sep 2016 21:35:16 +0200</pubDate>
-        <link>http://example.com/general/2016/09/22/hello-world.html</link>
-        <guid isPermaLink="true">http://example.com/general/2016/09/22/hello-world.html</guid>
+        <link>http://ackoujens.github.io/coder-log/general/2016/09/22/hello-world.html</link>
+        <guid isPermaLink="true">http://ackoujens.github.io/coder-log/general/2016/09/22/hello-world.html</guid>
         
         
         <category>general</category>
@@ -57,8 +57,8 @@
 
 </description>
         <pubDate>Thu, 22 Sep 2016 21:15:16 +0200</pubDate>
-        <link>http://example.com/jekyll/update/2016/09/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://example.com/jekyll/update/2016/09/22/welcome-to-jekyll.html</guid>
+        <link>http://ackoujens.github.io/coder-log/jekyll/update/2016/09/22/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://ackoujens.github.io/coder-log/jekyll/update/2016/09/22/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
