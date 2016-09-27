@@ -1,14 +1,13 @@
 ---
-layout: barebones
+layout: default
 ---
 
 <!-- TODO look what I need on the index page -->
 
-<div class="home">
+<div>
+  <h1>Posts</h1>
 
-  <h1 class="page-heading">_root - Posts</h1>
-
-  <ul class="post-list">
+  <ul>
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
