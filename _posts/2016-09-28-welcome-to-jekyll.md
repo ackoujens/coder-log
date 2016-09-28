@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Hello World!"
-date:   2016-09-22 21:35:16 +0100
-categories: general
+date:   2016-09-28 11:32:16 +0100
+categories: jekyll
 ---
 [https://jekyllrb.com/]
 
