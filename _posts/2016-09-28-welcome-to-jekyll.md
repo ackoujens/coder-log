@@ -32,7 +32,7 @@ not a developer*, it doesn't matter at all!) and hone yourself into Jekyll
 content creation!
 
 These links below really helped my out in creating this and maybe
-future sites based on this minimalistic dreamware!
+future sites based on this minimalistic dream-ware!
 - [https://jekyllrb.com/]
 - [https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/]
 - [https://mademistakes.com/articles/going-static/]
