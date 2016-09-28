@@ -6,15 +6,15 @@ categories: jekyll
 ---
 [https://jekyllrb.com/]
 
-Jekyll can be great when you familiarise yourself with it's pros and cons. 
-Also when you are not making a website which is in need of a complicated CMS, 
-this is your ticket to heaven. The point is really that Jekyll will tend to 
+Jekyll can be great when you familiarize yourself with it's pros and cons.
+Also when you are not making a website which is in need of a complicated CMS,
+this is your ticket to heaven. The point is really that Jekyll will tend to
 be loved by people who like it simple.
 
-When you think of a simple web framework, mostly you'll cross out the word 
-database in your head. This is really **not the case** though. 
-Jekyll stands strong in being a web framework which is using a static style 
-of a database. This way you can maintain a simple blog, catalog or any other 
+When you think of a simple web framework, mostly you'll cross out the word
+database in your head. This is really **not the case** though.
+Jekyll stands strong in being a web framework which is using a static style
+of a database. This way you can maintain a simple blog, catalog or any other
 crazy ideas you can come up with.
 
 If that doesn't convince you to use Jekyll, I know what does.
