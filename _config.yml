@@ -28,6 +28,9 @@ github_username:  ackoujens
 markdown: kramdown
 kramdown:
   input: GFM
+sass:
+  sass_dir: _sass
+  style: :compressed
 theme: minima
 
 # Global link appearance
@@ -38,3 +41,6 @@ lsi: false
 
 # Disable custom plugins
 safe: false
+
+gems:
+  - jekyll-coffeescript
