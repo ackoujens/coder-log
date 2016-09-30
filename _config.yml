@@ -26,7 +26,15 @@ github_username:  ackoujens
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 theme: minima
 
-# Since GH pages override this to "true", we test this value to see if we are running locally
+# Global link appearance
+permalink: /:title
+
+# Limit posts to parse
+lsi: false
+
+# Disable custom plugins
 safe: false
