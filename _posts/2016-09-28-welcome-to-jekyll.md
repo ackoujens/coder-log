@@ -4,6 +4,7 @@ title:  Welcome to Jekyll
 date:   2016-09-28 11:32:16 +0100
 categories: jekyll
 ---
+![GitHub Pages Jekyll]({{ site.baseurl }}/res/logo-gh-pages-jekyll.png "GitHub Pages Jekyll")
 <https://jekyllrb.com>
 
 Jekyll can be great when you familiarize yourself with it's pros and cons.
