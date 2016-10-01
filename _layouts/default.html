@@ -10,6 +10,22 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
   </head>
   <body>
+    <header>
+      <nav>
+        <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 1 Title">Link 1</a>
+        <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 2 Title">Link 2</a>
+        <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 3 Title">Link 3</a>
+        <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 4 Title">Link 4</a>
+        <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 5 Title">Link 5</a>
+      </nav>
+    </header>
+
     {{ content }}
+
+    <footer>
+
+    </footer>
+
+    {% include analytics.html %}
   </body>
 </html
