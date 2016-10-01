@@ -2,15 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
     <!-- Print title if available -->
     <title>{% if page.title %}{{ page.title }} $mdash; {% endif %}Ackou Jens</title>
-    <meta http-equiv="content-type" content="text/html; charset-utf-8">
 
-    <!-- Styling -->
+    <!-- TODO Seperate bootstrap css -->
+
+    <!-- Custum style for this template -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
   </head>
   <body>
-    <header>
+    <div class="container">
       <nav>
         <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 1 Title">Link 1</a>
         <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 2 Title">Link 2</a>
@@ -18,14 +26,29 @@
         <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 4 Title">Link 4</a>
         <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 5 Title">Link 5</a>
       </nav>
-    </header>
+    </div>
 
-    {{ content }}
+    <div class="container">
+      <header>
+        <h1>Site title here</h1>
+        <p>Description of website here.</p>
+      </header>
 
-    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            {{ content }}
+          </div>
+          <div class="col-sm-3">
+            <h4>Sidebar</div>
+          </div>
+        </div>
+      </div>
 
-    </footer>
+      <footer>
+      </footer>
 
-    {% include analytics.html %}
+      {% include analytics.html %}
+    </div>
   </body>
 </html
