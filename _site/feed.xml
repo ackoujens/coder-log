@@ -6,8 +6,8 @@
 </description>
     <link>http://ackoujens.github.io/coder-log/</link>
     <atom:link href="http://ackoujens.github.io/coder-log/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Oct 2016 18:55:02 +0200</pubDate>
-    <lastBuildDate>Sat, 01 Oct 2016 18:55:02 +0200</lastBuildDate>
+    <pubDate>Mon, 03 Oct 2016 22:14:38 +0200</pubDate>
+    <lastBuildDate>Mon, 03 Oct 2016 22:14:38 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -66,10 +66,18 @@ future sites based on this minimalistic dream-ware!&lt;/p&gt;
     
       <item>
         <title>Hello World!</title>
-        <description>&lt;center&gt;
-  ![A jekyll hello world](/coder-log/res/anim-hello-world.gif)
-  A respectful tradition among all programmers.
-&lt;/center&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/coder-log/res/anim-hello-world.gif&quot; alt=&quot;A jekyll hello world&quot; title=&quot;Jekyll and GitHub logo&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;GitHub, I salute you !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A respectful tradition among all programmers.
+Welcoming me into the world of free GitHub webhosting!&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for all kinds of blog posts related to web/application development.&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 Sep 2016 22:35:16 +0200</pubDate>
         <link>http://ackoujens.github.io/coder-log/hello-world</link>
