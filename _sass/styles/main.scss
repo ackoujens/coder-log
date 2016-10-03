@@ -1,11 +1,25 @@
-/*
+/* TODO
 more refined typography
 look for blog about housestyle
 */
 
 // Imports
 @import "variables";
-//@import "bootstrap";
+@import "bootstrap";
 
-// TODO Consider only importing the parts that I need
+/* TODO Consider only importing the parts that I need
 @import "bootstrap/mixins";
+@import "bootstrap/alerts";
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/grid";
+@import "bootstrap/responsive-utilities";
+*/
+
+.post {
+  img {
+    width: 100%;
+  }
+}
