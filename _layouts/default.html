@@ -42,12 +42,17 @@
           <div class="col-sm-3">
             <h4>Advertisement</h4>
             <img src="https://lh4.ggpht.com/8w5rhmn-M8IKcoktSlyKjXLUt5ABPwA8DVcPMz2JpzVc89kdJyntWb-RttwuurauryMR4lH3vw=w160" alt="placeholder" />
-            
+
             <!-- TODO Featured post -->
             <h4>Featured post</h4>
-            
+
             <!-- TODO Register "related posts" loop -->
             <h4>Related posts</h4>
+
+            <h4>Recent post</h4>
+            {% for post in site.posts limit:1 %}
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            {% endfor %}
           </div>
         </div>
       </div>
