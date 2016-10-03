@@ -30,7 +30,7 @@ kramdown:
   input: GFM
 sass:
   sass_dir: _sass
-  style: :compressed
+  #style: :compressed
 theme: minima
 
 # Global link appearance
