@@ -8,6 +8,8 @@ comments: true
 ![GitHub Pages Jekyll]({{ site.baseurl }}/res/logo-gh-pages-jekyll.png "GitHub Pages Jekyll")
 <https://jekyllrb.com>
 
+___
+
 Jekyll can be great when you familiarize yourself with it's pros and cons.
 Also when you are not making a website which is in need of a complicated CMS,
 this is your ticket to heaven. The point is really that Jekyll will tend to
