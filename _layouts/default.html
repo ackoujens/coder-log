@@ -6,24 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    
+
     <!-- TODO Create favicon -->
     <link rel="icon" href="../../favicon.ico">
 
     <!-- Print title if available -->
     <title>{% if page.title %}{{ page.title }} $mdash; {% endif %}Ackou Jens</title>
 
-    <!-- TODO Seperate bootstrap css -->
-
     <!-- Custum style for this template -->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
-    
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    {% include required-css.html %}
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -99,13 +90,6 @@
       <footer>
       </footer>
     </div>
-    
-    {% include analytics.html %}
-      
-    {% for js in page.jsarr %}
-      <script type="text/javascript">
-        {% include {{ js }} %}
-      </script>
-    {% endfor %}
+    {% include required-js.html %}
   </body>
 </html
