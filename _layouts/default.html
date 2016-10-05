@@ -27,15 +27,46 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <nav>
-        <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 1 Title">Link 1</a>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="http://placehold.it/150x50&text=Logo" alt=""/>
+          </a>
+        </div>
+        <!-- TODO implement URL and jekyll functionalities
+         <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 1 Title">Link 1</a>
         <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 2 Title">Link 2</a>
         <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 3 Title">Link 3</a>
         <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 4 Title">Link 4</a>
         <a href="#" {% if page.url contains "#" %}class="active"{% endif %} title="Link 5 Title">Link 5</a>
-      </nav>
-    </div>
+         -->
+        <!-- Collect the nav links, forms and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div class="container">
       <header>
