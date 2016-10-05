@@ -27,7 +27,12 @@ look for blog about housestyle
 
 /* Responsive navigation */
 body {
+    font-family: 'Inconsolata', monospace;
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+h1, h2, h3 {
+  font-family: 'Handlee', cursive;
 }
 
 .navbar-fixed-top .nav {
