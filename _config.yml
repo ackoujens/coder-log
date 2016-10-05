@@ -42,5 +42,10 @@ lsi: false
 # Disable custom plugins
 safe: false
 
+# Javascript
+jsarr:
+  - bootstrap.js
+  - jquery.js
+
 gems:
   - jekyll-coffeescript
