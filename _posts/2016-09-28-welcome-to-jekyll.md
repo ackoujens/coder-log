@@ -5,7 +5,7 @@ date:   2016-09-28 11:32:16 +0100
 categories: jekyll
 comments: true
 ---
-![GitHub Pages Jekyll]({{ site.baseurl }}/res/logo-gh-pages-jekyll.png "GitHub Pages Jekyll")
+![GitHub Pages Jekyll]({{ site.assets }}/img/logo-gh-pages-jekyll.png "GitHub Pages Jekyll")
 <https://jekyllrb.com>
 
 ___
