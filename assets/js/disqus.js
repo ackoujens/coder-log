@@ -1,7 +1,7 @@
 // Disqus - website engagement
 var disqus_config = function () {
   // canonical url
-  this.page.url = "http://ackoujens.github.io{{ page.url }}";
+  this.page.url = "http://ackoujens.github.io/coder-log/";
   this.page.identifier = "{{ page.id }}";
 };
 (function() {
