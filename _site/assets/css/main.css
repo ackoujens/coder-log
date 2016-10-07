@@ -5820,28 +5820,28 @@ button.close {
 @import "bootstrap/grid";
 @import "bootstrap/responsive-utilities";
 */
-.post img {
-  width: 100%; }
-
-/* Responsive navigation */
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Changa', sans-serif;
   padding-top: 70px;
   /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */ }
 
-h1, h2, h3 {
-  font-family: 'Handlee', cursive; }
+header {
+  text-align: center;
+  margin-bottom: 6em; }
+  header nav ul {
+    padding: 0;
+    list-style: none; }
+    header nav ul li {
+      margin-left: 5px;
+      margin-right: 5px;
+      display: inline; }
 
-.navbar-fixed-top .nav {
-  padding: 15px 0; }
+.post img {
+  width: 100%; }
 
-.navbar-fixed-top .navbar-brand {
-  padding: 0 15px; }
-
-@media (min-width: 768px) {
-  body {
-    padding-top: 100px;
-    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */ }
-
-  .navbar-fixed-top .navbar-brand {
-    padding: 15px 0; } }
+/* POSTS */
+#posts ul {
+  padding: 0;
+  list-style: none; }
+  #posts ul li {
+    margin-bottom: 4em; }

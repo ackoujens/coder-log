@@ -3,25 +3,27 @@ layout: default
 ---
 
 <!-- TODO look what I need on the index page -->
-
-<div>
-  <h1>Posts</h1>
-
+<div id="posts">
   <ul>
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-        <p>
-          <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
-        </p>
+      <li class="post">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="http://placehold.it/350x150" />
+          </div>
+          <div class="col-sm-6">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+            </h2>
+            <p>
+              <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
+            </p>
+          </div>
+        </div>
       </li>
     {% endfor %}
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>
