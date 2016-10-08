@@ -19,8 +19,12 @@ look for blog about housestyle
 */
 
 body {
-    font-family: 'Changa', sans-serif;
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+  font-family: 'Roboto', sans-serif;
+  padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
 }
 
 header {
