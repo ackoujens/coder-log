@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- TODO Create favicon -->
+    <link rel="icon" href="../../favicon.ico">
+
+    <!-- Print title if available -->
+    <title>{% if page.title %}{{ page.title }} $mdash; {% endif %}Ackou Jens</title>
+
+    <!-- Custum style for this template -->
+    {% include required-css.html %}
+  </head>
+  <body>
+    <div class="container">
+      {{ content }}
+    </div>
+    {% include required-js.html %}
+  </body>
+</html

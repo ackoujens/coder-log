@@ -1,63 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+---
+layout: main
+---
+<div class="row">
+    <header>
+      {% if site.title %}<h1>{{ site.title }}</h1>{% endif %}
+      {% if site.description %}<p>{{ site.description }}</p>{% endif %}
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+</div>
 
-    <!-- TODO Create favicon -->
-    <link rel="icon" href="../../favicon.ico">
-
-    <!-- Print title if available -->
-    <title>{% if page.title %}{{ page.title }} $mdash; {% endif %}Ackou Jens</title>
-
-    <!-- Custum style for this template -->
-    {% include required-css.html %}
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-          <header>
-            {% if site.title %}<h1>{{ site.title }}</h1>{% endif %}
-            {% if site.description %}<p>{{ site.description }}</p>{% endif %}
-            <nav>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </nav>
-          </header>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-9">
-            {{ content }}
-          </div>
-          <div class="col-sm-3">
-            <img src="https://lh4.ggpht.com/8w5rhmn-M8IKcoktSlyKjXLUt5ABPwA8DVcPMz2JpzVc89kdJyntWb-RttwuurauryMR4lH3vw=w160" alt="placeholder" />
-
-            <!-- TODO Featured post -->
-            <h4>Featured post</h4>
-
-            <!-- TODO Register "related posts" loop -->
-            <h4>Related posts</h4>
-
-            <h4>Recent post</h4>
-            {% for post in site.posts limit:1 %}
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-
-      <footer>
-      </footer>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+      {{ content }}
     </div>
-    {% include required-js.html %}
-  </body>
-</html
+    <div class="col-sm-3">
+      <img src="https://lh4.ggpht.com/8w5rhmn-M8IKcoktSlyKjXLUt5ABPwA8DVcPMz2JpzVc89kdJyntWb-RttwuurauryMR4lH3vw=w160" alt="placeholder" />
+
+      <!-- TODO Featured post -->
+      <h4>Featured post</h4>
+
+      <!-- TODO Register "related posts" loop -->
+      <h4>Related posts</h4>
+
+      <h4>Recent post</h4>
+      {% for post in site.posts limit:1 %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<footer>
+</footer>
