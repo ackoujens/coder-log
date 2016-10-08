@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Coder Log</title>
+    <description>My own little place of coding feats and wonders</description>
+    <link>http://ackoujens.github.io/coder-log/</link>
+    <atom:link href="http://ackoujens.github.io/coder-log/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 08 Oct 2016 15:24:08 +0200</pubDate>
+    <lastBuildDate>Sat, 08 Oct 2016 15:24:08 +0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/coder-log/assets/img/logo-gh-pages-jekyll.png&quot; alt=&quot;GitHub Pages Jekyll&quot; title=&quot;GitHub Pages Jekyll&quot; /&gt;
+&lt;a href=&quot;https://jekyllrb.com&quot;&gt;https://jekyllrb.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Jekyll can be great when you familiarize yourself with it’s pros and cons.
+Also when you are not making a website which is in need of a complicated CMS,
+this is your ticket to heaven. The point is really that Jekyll will tend to
+be loved by people who like it simple.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ease of use = Ease of mind&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When you think of a simple web framework, mostly you’ll cross out the word
+database in your head. This is really &lt;strong&gt;not the case&lt;/strong&gt; though.
+Jekyll stands strong in being a web framework which is using a static style
+of a database. This way you can maintain a simple blog, catalog or any other
+crazy ideas you can come up with.&lt;/p&gt;
+
+&lt;p&gt;If that doesn’t convince you to use Jekyll, I know what does.
+Being a developer, I constantly use GitHub as my main tool.
+GitHub, supports websites on a Jekyll platform.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Free, unlimited and for each project you create.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In other words, putting your freshest piece of work into the spotlight
+does not require you to gut your wallet anymore and GitHub totally
+has your back on this.&lt;/p&gt;
+
+&lt;p&gt;What are you waiting for? Go out, create an account (&lt;em&gt;even though if you’re
+not a developer&lt;/em&gt;, it doesn’t matter at all!) and hone yourself into Jekyll
+content creation!&lt;/p&gt;
+
+&lt;p&gt;These links below really helped my out in creating this and maybe
+future sites based on this minimalistic dream-ware!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;https://jekyllrb.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages&quot;&gt;https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mademistakes.com/articles/going-static&quot;&gt;https://mademistakes.com/articles/going-static&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://interactivemechanics.com/news/2014/10/jekyll-vs-the-cms&quot;&gt;http://interactivemechanics.com/news/2014/10/jekyll-vs-the-cms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 28 Sep 2016 12:32:16 +0200</pubDate>
+        <link>http://ackoujens.github.io/coder-log/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://ackoujens.github.io/coder-log/welcome-to-jekyll</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/coder-log/assets/img/anim-hello-world.gif&quot; alt=&quot;A jekyll hello world&quot; title=&quot;Jekyll and GitHub logo&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;GitHub, I salute you !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A respectful tradition among all programmers.
+Welcoming me into the world of free GitHub webhosting!&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for all kinds of blog posts related to web/application development.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Sep 2016 22:35:16 +0200</pubDate>
+        <link>http://ackoujens.github.io/coder-log/hello-world</link>
+        <guid isPermaLink="true">http://ackoujens.github.io/coder-log/hello-world</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+  </channel>
+</rss>
