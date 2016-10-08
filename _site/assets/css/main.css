@@ -5821,9 +5821,12 @@ button.close {
 @import "bootstrap/responsive-utilities";
 */
 body {
-  font-family: 'Changa', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-top: 70px;
   /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */ }
+
+h1 {
+  font-family: 'Oswald', sans-serif; }
 
 header {
   text-align: center;
