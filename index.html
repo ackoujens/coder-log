@@ -17,7 +17,7 @@ layout: default
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
             </h2>
             <p>
-              <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
+              <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
             </p>
           </div>
         </div>
