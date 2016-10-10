@@ -18,5 +18,4 @@ Run the command below to run website locally for testing.
 
 ## Todo
 - Research "draft" status
-- Create styleguide (Sass)
 - Blogpost creation workflow (https://jekyllrb.com/docs/drafts/, ...)
