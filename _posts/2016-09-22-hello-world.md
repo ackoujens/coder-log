@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "Hello World!"
+image:  /img/anim-hello-world.gif
 date:   2016-09-22 21:35:16 +0100
 categories: general
 comments: true
 ---
-![A jekyll hello world]({{ site.assets }}/img/anim-hello-world.gif "Jekyll and GitHub logo")
-
-___
-
 >GitHub, I salute you !
 
 A respectful tradition among all programmers.

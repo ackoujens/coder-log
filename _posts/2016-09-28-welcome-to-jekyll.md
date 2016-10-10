@@ -1,15 +1,11 @@
 ---
 layout: post
 title:  Welcome to Jekyll
+image: /img/logo-gh-pages-jekyll.png
 date:   2016-09-28 11:32:16 +0100
 categories: jekyll
 comments: true
 ---
-![GitHub Pages Jekyll]({{ site.assets }}/img/logo-gh-pages-jekyll.png "GitHub Pages Jekyll")
-<https://jekyllrb.com>
-
-___
-
 Jekyll can be great when you familiarize yourself with it's pros and cons.
 Also when you are not making a website which is in need of a complicated CMS,
 this is your ticket to heaven. The point is really that Jekyll will tend to
